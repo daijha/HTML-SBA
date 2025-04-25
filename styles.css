@@ -1,0 +1,99 @@
+body {
+  background: #8a817c;
+  color: #3b3632;
+  font-family: helvetica;
+  font-size: medium;
+  text-align: left;
+}
+h1 {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; /* find a fancy font for the headings*/
+}
+h3 {
+  text-align: center;
+}
+p {
+  background-color: #8a817c;
+  border: 2px solid #bcb8b1;
+  border-radius: 10px;
+  height: 40%;
+  width: 40%;
+  padding: 2%;
+  margin: 10px;
+}
+p:hover {
+  background-color: #e0afa0;
+  border: 5px solid #f4f3ee;
+}
+
+img {
+  /* change to img tag and set equal dimensions*/
+  width: 250px;
+  height: 250px;
+  background-color: #8a817c;
+  border-radius: 10px;
+  transition: background-color 2s; /* transitions go in the "first container"*/
+}
+#old {
+  /* one of the images looked off*/
+  width: 270px;
+  height: 230px;
+}
+img:hover {
+  background-color: #e0afa0;
+}
+ul {
+  /* this is for the nav bar container*/
+
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none; /* takes off the bullet points from the html list form*/
+  border: 1px #bcb8b1 solid;
+  border-radius: 10px;
+  padding: 1%;
+  width: 99%;
+  margin-left: auto;
+  background-color: #8a817c;
+}
+ul li:hover {
+  /* this is for the nav bar items*/
+ /* border: 1px #bcb8b1 solid;*/
+  border-radius:8px ;
+  padding: 10px;
+  background-color: #e0afa086;
+}
+table {
+  border: 2px #bcb8b1 solid;
+  border-radius: 10px;
+  border-collapse: separate;
+  border-spacing: 20px;
+  margin: 2%;
+  padding: 1%;
+}
+th {
+  color: #bcb8b1;
+  text-align: center;
+}
+tr td {
+  border: 1px #bcb8b1 solid;
+  border-radius: 10px;
+  border-collapse: separate;
+  border-spacing: 20px;
+  padding: 2%;
+  background-color: #8a817c;
+}
+#questions {
+  border: 2px #bcb8b1 solid;
+  border-radius: 10px;
+  margin: 2%;
+  padding: 3%;
+}
+.exp1 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: 1px solid #bcb8b1;
+  border-radius: 10px;
+  padding: 1%;
+}
+
